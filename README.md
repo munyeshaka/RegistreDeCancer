@@ -1,2 +1,2 @@
-# RegistreDeCanser
-Registre de canser
+# RegistreDeCancer
+Registre de cancer
