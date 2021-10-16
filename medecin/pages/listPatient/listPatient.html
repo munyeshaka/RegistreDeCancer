@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="containers">
+        <!--NAVIGATION-->
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="title"><h2>MEDECIN</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../index.html">
+                        <span class="icon"><i class="fa fa-dashboard" aria-hidden="true"></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../addPatient/addPatient.html ">
+                        <span class="icon "><i class="fa fa-plus " aria-hidden="true "></i></span>
+                        <span class="title ">Add patient</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../listPatient/listPatient.html ">
+                        <span class="icon "><i class="fa fa-list " aria-hidden="true "></i></span>
+                        <span class="title ">List of patient</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../index.html ">
+                        <span class="icon "><i class="fa fa-sign-out " aria-hidden="true "></i></span>
+                        <span class="title ">Sign Out</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon ">
+                            <i class="fa fa-lock " aria-hidden="true "></i></span>
+                        <span class="title ">Change Password </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="image/user.png" alt="">
+                </div>
+            </div>
+
+            <div class="details">
+                <!--list patient  -->
+                <div class="rencetOrders">
+                    <div class="cardHeader">
+                        <h2 style="text-align: center;">List of Courses</h2>
+                        <!-- <a href="#" class="btn">View All</a> -->
+                    </div>
+                    <br>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>id patient</th>
+                                <th>Name</th>
+                                <th>Address</th>
+                                <th>Phone</th>
+                                <th>Sex</th>
+                                <th>Age</th>
+                                <th>Symptom</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Peter</td>
+                                <td>Gitega</td>
+                                <td>79888898</td>
+                                <td>M</td>
+                                <td>50</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>John</td>
+                                <td>Kigobe</td>
+                                <td>79898898</td>
+                                <td>M</td>
+                                <td>60</td>
+                                <th>Anemie</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>John</td>
+                                <td>Kinyami</td>
+                                <td>79880998</td>
+                                <td>M</td>
+                                <td>60</td>
+                                <th>Anemie</th>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>John</td>
+                                <td>Kigobe</td>
+                                <td>798865898</td>
+                                <td>M</td>
+                                <td>65</td>
+                                <th>Anemie</th>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Ken</td>
+                                <td>Makamba</td>
+                                <td>79868898</td>
+                                <td>M</td>
+                                <td>60</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Joselyne</td>
+                                <td>Kigobe</td>
+                                <td>71888898</td>
+                                <td>F</td>
+                                <td>55</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Joseph</td>
+                                <td>Kayanza</td>
+                                <td>61888898</td>
+                                <td>M</td>
+                                <td>60</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Mika</td>
+                                <td>Bururi</td>
+                                <td>68888898</td>
+                                <td>F</td>
+                                <td>54</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Luc</td>
+                                <td>Kayanza</td>
+                                <td>79008898</td>
+                                <td>M</td>
+                                <td>60</td>
+                                <th>Melena</th>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Marie</td>
+                                <td>Kigobe</td>
+                                <td>79778898</td>
+                                <td>F</td>
+                                <td>60</td>
+                                <th>Melena</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <a href="#" class="btn">Update patient</a>
+                        <a href="#" class="btn">Remove patient</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleMenu() {
+            let toggle = document.querySelector('.toggle')
+            let navigation = document.querySelector('.navigation')
+            let main = document.querySelector('.main')
+            toggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
